@@ -1,0 +1,78 @@
+body {
+  background: #fff6f9;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+  background: #ffeaf4;
+  padding: 20px 40px;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(255, 182, 193, 0.3);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #ff7a9e;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 15px;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.cell:hover {
+  background: #ffedf3;
+  transform: scale(1.05);
+}
+
+.message {
+  font-size: 1.2rem;
+  color: #ff69b4;
+  font-weight: bold;
+  min-height: 24px;
+}
+
+.restart-btn {
+  background: #ffb6c1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.restart-btn:hover {
+  background: #ff9db0;
+}
+
+/* Winning highlight */
+.winner {
+  background: #ffb6c1;
+  box-shadow: 0 0 20px #ff69b4;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
