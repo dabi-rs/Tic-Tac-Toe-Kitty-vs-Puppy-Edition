@@ -9,10 +9,6 @@ A growing collection of fun and simple browser games built using HTML, CSS, and 
 - Tic Tac Toe
 
 
-## 🚧 Upcoming Games
-- Snake
-- Memory Match
-- Rock Paper Scissors
 
 ## 👨‍💻 Technologies Used
 - HTML, CSS, JavaScript
